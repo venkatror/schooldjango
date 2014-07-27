@@ -1,2 +1,1 @@
-web: python manage.py
-web: gunicorn school_manager.wsgi
+web: python manage.py collectstatic --noinput
